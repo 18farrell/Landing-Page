@@ -1,0 +1,149 @@
+
+/* style sheet for landing page */
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  
+  border: 2px solid red;
+  padding: 3px;
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+}
+
+header div {
+  margin: 0px 10px;
+  border:2px solid green;
+  flex: 1;
+}
+
+header .secondary {
+  border:2px solid red;
+  justify-content: flex-end;
+  display: flex;
+}
+
+
+
+.flex-container-1 {
+  display: flex;
+}
+  
+.flex-container-1 div {
+  font-style: 48px bold #f9faf8;
+  background: #1f2937;
+  height: 250px;
+  
+  border: 2px solid red;
+  flex: 1;
+}
+
+.flex-container-1 .leftbox {
+  color: white;
+}
+
+.flex-container-2 {
+  height: 250px;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  border: 2px solid red;
+}
+  
+.flex-container-2 div {
+  border: 2px solid red;
+  background: whitesmoke;
+  flex: 1; 
+}
+
+.flex-container-2 .top-box {
+  color: #1F2937;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bottom-box {
+
+ display: flex;
+}
+
+.flex-container-2 .bottom-box div {
+  margin: 50px 50px;
+  border-radius: 25px;
+  border: 2px solid #3882f6;
+  height: 50px;
+  width: 50px;
+}
+
+.flex-container-3 {
+  
+  background: #E5E7Eb;
+  height: 213px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.flex-container-3  p  {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-style: italic;
+  color: #1F2937;
+}  
+
+.flex-container-3 .citation {
+  font-size: 14px;
+  color: #1F2937;
+  margin-left: 270px;
+}
+
+.flex-container-4 {
+  background: whitesmoke;
+  height: 200px;
+  display: flex;
+}
+
+.flex-container-4 div {
+  flex: 1;
+}
+
+.ad {
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  margin: 50px 100px 50px 100px;
+  border-radius: 10px;
+  background-color:#3882f6;
+  display: flex;
+}
+
+.ad .info {
+  flex: 2;
+}
+
+.sign-up {
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.sign-up div {
+  flex: 1;
+}
+
+.sign-up h3 {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #1F2937;
+  color: white;
+}
